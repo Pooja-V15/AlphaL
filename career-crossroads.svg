@@ -1,0 +1,68 @@
+<svg width="900" height="760" viewBox="0 0 900 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Nexora career crossroads illustration</title>
+  <desc id="desc">A student stands at glowing crossroads with paths labeled Engineering, Music, Medicine, Business, and Arts.</desc>
+  <defs>
+    <radialGradient id="halo" cx="50%" cy="44%" r="56%">
+      <stop stop-color="#42B9FF" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#42B9FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="path" x1="450" y1="342" x2="450" y2="740" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8FF7FF" stop-opacity="0.88"/>
+      <stop offset="1" stop-color="#143968" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="figure" x1="400" y1="226" x2="500" y2="565" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3FBFF"/>
+      <stop offset="1" stop-color="#42B9FF"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.258 0 0 0 0 0.725 0 0 0 0 1 0 0 0 0.8 0"/>
+      <feBlend in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect width="900" height="760" rx="38" fill="#061225" fill-opacity="0.42"/>
+  <circle cx="450" cy="352" r="380" fill="url(#halo)"/>
+  <g opacity="0.58">
+    <path d="M98 142H250V232H394" stroke="#8FD5FF" stroke-opacity="0.32" stroke-width="3"/>
+    <path d="M792 180H674V270H522" stroke="#8FD5FF" stroke-opacity="0.28" stroke-width="3"/>
+    <path d="M130 552H272V474H374" stroke="#8FD5FF" stroke-opacity="0.26" stroke-width="3"/>
+    <path d="M760 548H618V468H520" stroke="#8FD5FF" stroke-opacity="0.26" stroke-width="3"/>
+    <circle cx="98" cy="142" r="8" fill="#8FF7FF"/>
+    <circle cx="792" cy="180" r="8" fill="#42B9FF"/>
+    <circle cx="130" cy="552" r="8" fill="#42B9FF"/>
+    <circle cx="760" cy="548" r="8" fill="#8FF7FF"/>
+  </g>
+  <g filter="url(#glow)">
+    <path d="M444 368C392 452 326 559 250 724H360C399 612 425 539 450 488C475 539 501 612 540 724H650C574 559 508 452 456 368H444Z" fill="url(#path)" fill-opacity="0.72"/>
+    <path d="M447 366C352 410 260 461 152 548L247 602C321 522 382 475 450 436C518 475 579 522 653 602L748 548C640 461 548 410 453 366H447Z" fill="url(#path)" fill-opacity="0.5"/>
+    <path d="M450 350C334 346 226 330 92 304L118 410C250 394 348 385 450 386C552 385 650 394 782 410L808 304C674 330 566 346 450 350Z" fill="url(#path)" fill-opacity="0.42"/>
+  </g>
+  <g>
+    <rect x="60" y="258" width="188" height="64" rx="20" fill="#091831" fill-opacity="0.82" stroke="#8FD5FF" stroke-opacity="0.28"/>
+    <rect x="652" y="258" width="188" height="64" rx="20" fill="#091831" fill-opacity="0.82" stroke="#8FD5FF" stroke-opacity="0.28"/>
+    <rect x="58" y="560" width="174" height="64" rx="20" fill="#091831" fill-opacity="0.82" stroke="#8FD5FF" stroke-opacity="0.28"/>
+    <rect x="668" y="560" width="174" height="64" rx="20" fill="#091831" fill-opacity="0.82" stroke="#8FD5FF" stroke-opacity="0.28"/>
+    <rect x="356" y="650" width="188" height="64" rx="20" fill="#091831" fill-opacity="0.82" stroke="#8FD5FF" stroke-opacity="0.28"/>
+    <text x="154" y="298" text-anchor="middle" fill="#EAF8FF" font-family="Segoe UI, Arial" font-size="24" font-weight="700">Engineering</text>
+    <text x="746" y="298" text-anchor="middle" fill="#EAF8FF" font-family="Segoe UI, Arial" font-size="24" font-weight="700">Music</text>
+    <text x="145" y="600" text-anchor="middle" fill="#EAF8FF" font-family="Segoe UI, Arial" font-size="24" font-weight="700">Medicine</text>
+    <text x="755" y="600" text-anchor="middle" fill="#EAF8FF" font-family="Segoe UI, Arial" font-size="24" font-weight="700">Business</text>
+    <text x="450" y="690" text-anchor="middle" fill="#EAF8FF" font-family="Segoe UI, Arial" font-size="24" font-weight="700">Arts</text>
+  </g>
+  <g filter="url(#glow)">
+    <circle cx="450" cy="202" r="48" fill="url(#figure)"/>
+    <path d="M376 352C378 294 408 250 450 250C492 250 522 294 524 352L534 502C536 529 515 552 488 552H412C385 552 364 529 366 502L376 352Z" fill="url(#figure)"/>
+    <path d="M395 344C356 376 324 404 292 438" stroke="#DFF7FF" stroke-width="22" stroke-linecap="round"/>
+    <path d="M505 344C544 376 576 404 608 438" stroke="#8FD5FF" stroke-width="22" stroke-linecap="round"/>
+    <path d="M422 546L398 654" stroke="#DFF7FF" stroke-width="24" stroke-linecap="round"/>
+    <path d="M478 546L502 654" stroke="#8FD5FF" stroke-width="24" stroke-linecap="round"/>
+    <path d="M409 194C433 160 475 158 499 192C482 182 448 183 409 194Z" fill="#07172C"/>
+  </g>
+  <g opacity="0.82">
+    <circle cx="334" cy="160" r="4" fill="#8FF7FF"/>
+    <circle cx="588" cy="132" r="5" fill="#42B9FF"/>
+    <circle cx="706" cy="426" r="4" fill="#8FF7FF"/>
+    <circle cx="220" cy="442" r="4" fill="#42B9FF"/>
+    <circle cx="520" cy="84" r="3" fill="#8FF7FF"/>
+  </g>
+</svg>
